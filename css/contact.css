@@ -1,0 +1,151 @@
+#letstalk-wrap {
+    width: 100%;
+background: rgba(249, 105, 105, 0.5) url(../images/contact-compressed.jpg) center top no-repeat;
+    height: auto;
+    padding-bottom: 25px;
+    position: relative;
+    background-attachment: fixed;
+    background-size: cover;
+    -moz-background-size: cover;
+    -webkit-background-size: cover;
+    -ms-background-size: cover
+}
+/*
+#letstalk-wrap .container:before {
+    background: url(../../images/down-arrow01.png) no-repeat center top;
+    content: "";
+    display: block;
+    height: 68px;
+    left: 50%;
+    position: absolute;
+    top: -30px;
+    width: 68px
+}
+*/
+.lets-talk-row {
+    width: 100%
+}
+.lets-talk-row h4 {
+    text-align: center;
+    color: #fff;
+    font: 60px/65px amaranthbold_italic;
+    padding-top: 50px
+}
+.lets-talk-row p {
+    color: #fff;
+    font: 14px/20px amaranthregular;
+    text-align: center
+}
+.lets-talk-row ul {
+	width: 100%;
+    float: left;
+    display: block;
+    margin-top: 30px
+}
+.lets-talk-row ul li {
+    float: left;
+    padding: 0 53px 25px;
+    text-align: center;
+    position: relative;
+    width: 25%
+}
+.lets-talk-row ul li a {
+    text-align: center;
+    display: block
+}
+.lets-talk-row ul li span {
+    display: inline-block;
+    height: 122px;
+    transform: rotate(0deg);
+    -moz-transform: rotate(0deg);
+    -webkit-transform: rotate(0deg);
+    -ms-transform: rotate(0deg);
+    transition: all 2s ease-in-out 0;
+    -moz-transition: all 2s ease-in-out 0;
+    -webkit-transition: all 2s ease-in-out 0;
+    -ms-transition: all 2s ease-in-out 0;
+    border-radius: 100px
+}
+.lets-talk-row ul li figure {
+    height: 122px;
+    line-height: 122px!important;
+    position: absolute;
+    top: 0;
+    vertical-align: middle;
+    width: 188px;
+    z-index: 2
+}
+.lets-talk-row ul li:hover span {
+    transform: scale(1.5);
+    -moz-transform: scale(1.5);
+    -webkit-transform: scale(1.5);
+    -ms-transform: scale(1.5)
+}
+.lets-talk-row ul li p,
+.lets-talk-row ul li p a {
+  
+    color: #fff;
+    display: block
+}
+.lets-talk-row ul li p small {
+ font-size:15px;
+    color: #fff;
+    display: block
+}
+.lets-talk-row ul li .ani_bg {
+    background: none repeat scroll 0 0 #fff;
+    border-radius: 100%;
+    display: inline-block;
+    height: 108px;
+    left: 94px;
+    position: absolute;
+    top: 7px;
+    border: 1px solid #fff;
+    width: 108px;
+    z-index: 1;
+    transform: scale(1);
+    -moz-transform: scale(1);
+    -webkit-transform: scale(1);
+    -ms-transform: scale(1);
+    transition: all 1s ease 0;
+    -moz-transition: all 1s ease 0
+}
+.lets-talk-row ul li:hover .ani_bg {
+    transform: scale(1);
+    -moz-transform: scale(1);
+    -webkit-transform: scale(1);
+    -ms-transform: scale(1)
+}
+.lets-talk-row ul li .ani_bg-2 {
+    border: 1px solid #fff;
+    border-radius: 100%;
+    display: inline-block;
+    height: 115px;
+    width: 113px;
+    border-radius: 100%;
+    opacity: 0;
+    position: absolute;
+    left: 91px;
+    top: 3px
+}
+.lets-talk-row ul li:hover .ani_bg-2 {
+    transform: scale(1.10);
+    -moz-transform: scale(1.10);
+    -webkit-transform: scale(1.10);
+    -ms-transform: scale(1.10);
+    display: block;
+    opacity: 1;
+    transition: all .4s ease-in-out 0
+}
+@media screen and (max-width: 991px) {
+	.lets-talk-row ul li {
+
+    width: 50%;
+}
+}
+@media screen and (max-width: 575px) {
+	.lets-talk-row ul li {
+
+    width: 100%;
+}
+}
